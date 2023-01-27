@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.44c4fd3c.css",
+    "main.js": "/static/js/main.a8bbdaf3.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/backr7.jpg": "/static/media/backr7.2dc7e06aae4301f1e8eb.jpg",
+    "static/media/backgr.jpg": "/static/media/backgr.75ef1364b91f3fd764b0.jpg",
+    "static/media/sl3.jpg": "/static/media/sl3.a54502824a306e32afaa.jpg",
+    "static/media/backg.jpg": "/static/media/backg.02295c6639d31898af1a.jpg",
+    "static/media/sl4.jpg": "/static/media/sl4.c713af5583e71749c40a.jpg",
+    "static/media/backr2.jpg": "/static/media/backr2.83b69f006c1d8d5c6d5d.jpg",
+    "static/media/hero.jpg": "/static/media/hero.d47455c5845ac947ebdf.jpg",
+    "static/media/signin.png": "/static/media/signin.1d4808f681dc22ebe604.png",
+    "static/media/AKlogo.png": "/static/media/AKlogo.70887e411fe4c06d9e2b.png",
+    "static/media/unknown.jpg": "/static/media/unknown.b7d8610dc9936e13c68f.jpg",
+    "static/media/slide4.jpg": "/static/media/slide4.7e00db9ca6dff89a809a.jpg",
+    "static/media/screenshot.jpg": "/static/media/screenshot.75f72f44e792a785dafd.jpg",
+    "index.html": "/index.html",
+    "main.44c4fd3c.css.map": "/static/css/main.44c4fd3c.css.map",
+    "main.a8bbdaf3.js.map": "/static/js/main.a8bbdaf3.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44c4fd3c.css",
+    "static/js/main.a8bbdaf3.js"
+  ]
+}

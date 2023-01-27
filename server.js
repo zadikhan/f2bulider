@@ -1,6 +1,7 @@
 const dotenv = require("dotenv")
 const mongoose = require('mongoose')
 const express = require('express');
+const path=require('path');
 const app = express();
 const cookieParser=require("cookie-parser");
 app.use(cookieParser());
@@ -13,7 +14,7 @@ app.use(require('./router/auth'))
 // const User = require('./model/userSchema')
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 
 //middleware
 
@@ -34,12 +35,12 @@ app.get('/registration', (req, res) => {
     res.send(`Hello world this is registration page `)
 })
 
-if (process.env.NODE_ENV === 'production') {
-    //*Set static folder up in production
-    app.use(express.static('client/build'));
 
-    app.get('*', (req,res) => res.sendFile(path.resolve(__dirname, 'client', 'build','index.html')));
-  }
+    //*Set static folder up in production
+    app.use(express.static(path.join(__dirname, "./client/build")));
+
+    app.get('*', (req,res) => res.sendFile(path.join(__dirname, "./client/build/index.html"))); 
+  
 
 app.listen(PORT, () => {
     console.log(`server is running at the port ${PORT}`);
